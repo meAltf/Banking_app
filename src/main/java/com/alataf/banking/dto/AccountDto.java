@@ -21,8 +21,8 @@ public class AccountDto {
     private String accountHolderName;
     private double balance;
 
-    public AccountDto(Long id, String accountHolderName, double balance) {
-    }
+//    public AccountDto(Long id, String accountHolderName, double balance) {
+//    }
 
     public Long getId() {
         return id;
