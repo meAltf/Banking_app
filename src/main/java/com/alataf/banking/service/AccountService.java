@@ -2,6 +2,8 @@ package com.alataf.banking.service;
 
 import com.alataf.banking.dto.AccountDto;
 
+import java.util.List;
+
 public interface AccountService {
 
     AccountDto createAccount(AccountDto accountDto);
@@ -11,4 +13,6 @@ public interface AccountService {
     AccountDto depositBalance(Long id, double amount);
 
     AccountDto withdrawBalance(Long id, double amount);
+
+    List<AccountDto> getAllAccounts();
 }
