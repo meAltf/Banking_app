@@ -1,8 +1,8 @@
 package com.alataf.banking.service;
 
-import com.alataf.banking.entity.Account;
+import com.alataf.banking.dto.AccountDto;
 
 public interface AccountService {
 
-    Account createAccount(Account account);
+    AccountDto createAccount(AccountDto accountDto);
 }
